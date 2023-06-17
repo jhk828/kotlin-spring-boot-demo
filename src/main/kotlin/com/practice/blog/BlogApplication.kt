@@ -1,11 +1,11 @@
-package com.practice.demo
+package com.practice.blog
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DemoApplication
+class BlogApplication
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+    runApplication<BlogApplication>(*args)
 }
